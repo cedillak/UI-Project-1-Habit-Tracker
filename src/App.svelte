@@ -65,7 +65,7 @@
 
 <style>
   /* Ensure the body takes full height and allows scrolling */
-  body, html {
+  :global(body), :global(html) {
     margin: 0;
     padding: 0;
     height: 100%;
